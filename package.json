@@ -1,5 +1,13 @@
 {
   "name": "yarn-nx-monorepo",
+  "private": true,
+  "scripts": {
+    "clean": "yarn clean-dist && yarn clean-modules",
+    "clean-modules": "find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' \\;",
+    "clean-dist": "find . -type d -name 'dist' -not -path '*/node_modules/*' -print0 | xargs -0 rm -rf",
+    "dev:remix": "yarn workspace my-remix-app dev",
+    "dev:nextjs": "yarn workspace my-nextjs-app dev"
+  },
   "packageManager": "yarn@4.5.1",
   "workspaces": [
     "apps/*",

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "outDir": "./dist",
+    "lib": ["DOM", "ES2022"],
+    "rootDir": "./",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "paths": {},
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": false,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "lib", "dist", "*.d.ts"]
+}
