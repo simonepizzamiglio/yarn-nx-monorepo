@@ -1,3 +1,8 @@
 node_modules
 dist
 build
+vite.config.*.timestamp*
+
+.yarn
+
+.nx
