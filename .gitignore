@@ -3,9 +3,14 @@ dist
 build
 vite.config.*.timestamp*
 
-.yarn
-.yarn
+# yarn
+.yarn/cache
+.yarn/versions/*
+.yarn/install-state.gz
 
 .nx
 
 .DS_Store
+
+# var files
+.env
