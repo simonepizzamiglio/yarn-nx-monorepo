@@ -4,5 +4,8 @@ build
 vite.config.*.timestamp*
 
 .yarn
+.yarn
 
 .nx
+
+.DS_Store
