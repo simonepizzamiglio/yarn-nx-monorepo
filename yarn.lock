@@ -7815,6 +7815,7 @@ __metadata:
     shared-ui: "workspace:^"
     tailwindcss: "npm:^3.4.4"
     typescript: "npm:^5.1.6"
+    utils: "workspace:^"
     vite: "npm:^5.1.0"
     vite-tsconfig-paths: "npm:^4.2.1"
   languageName: unknown
@@ -10590,6 +10591,15 @@ __metadata:
   checksum: 10c0/02ba649de1b7ca8854bfe20a82f1dfbdda3fb57a22ab4a8972a63a34553cf7aa51bc9081cf7e001b035b88186d23689d69e71b510e610a09a4c66f68aa95b672
   languageName: node
   linkType: hard
+
+"utils@workspace:^, utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "utils@workspace:packages/utils"
+  dependencies:
+    typescript: "npm:^5.1.6"
+    vite: "npm:^5.1.0"
+  languageName: unknown
+  linkType: soft
 
 "uuid@npm:^9.0.0":
   version: 9.0.1
