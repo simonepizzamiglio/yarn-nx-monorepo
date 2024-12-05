@@ -28,7 +28,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.454.0",
-    "react": "^18.2.0",
+    "react": "^19.0.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -42,7 +42,7 @@
     "@storybook/react-vite": "^8.4.1",
     "@storybook/test": "^8.4.1",
     "@types/node": "^22.8.5",
-    "@types/react": "^18.2.20",
+    "@types/react": "^19.0.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "storybook": "^8.4.1",
